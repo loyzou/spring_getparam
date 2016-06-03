@@ -1,5 +1,8 @@
 package com.sufow.springtest;
 
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.xml.XmlBeanFactory;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -15,6 +18,13 @@ public class SpringTest {
 		ApplicationContext context =  new ClassPathXmlApplicationContext("applicationContext.xml");
 		
 		Sufow sufow = (Sufow)context.getBean("sufow");
+		
+		Logger log = Logger.getLogger(SpringTest.class);
+		log.info("springTest start");
+		
+		Log log2 = LogFactory.getLog(SpringTest.class);
+		log2.info("第二种方式日志");
+		
 		
 		System.out.println(sufow.getUsername());
 		

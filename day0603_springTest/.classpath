@@ -11,5 +11,6 @@
 	<classpathentry kind="lib" path="D:/开发工具/SSH框架j+SSIar/struts-2.3.28/lib/spring-expression-3.0.5.RELEASE.jar"/>
 	<classpathentry kind="lib" path="D:/开发工具/SSH框架j+SSIar/struts-2.3.28/lib/spring-test-3.0.5.RELEASE.jar"/>
 	<classpathentry kind="lib" path="D:/开发工具/SSH框架j+SSIar/struts-2.3.28/lib/spring-web-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/.ivy2/cache/log4j/log4j/jars/log4j-1.2.15.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
